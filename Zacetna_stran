@@ -19,7 +19,7 @@ namespace Buron
         }
 
         private NpgsqlConnection conn = new NpgsqlConnection(); /*preverjanje NUgget package za povezavo
-        s PostgreSQLL.*/
+        s PostgreSQL.*/
 
         NpgsqlCommand sql = new NpgsqlCommand(); /*ustvaritev stavka za delo s podatkovno bazo za PostgreSQL*/
     }
